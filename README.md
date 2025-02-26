@@ -1,4 +1,4 @@
-# 113-1-junior-college-C-plus-plus-program
+# 114-1-junior-college-C-plus-plus-program
 program is good :)
 ## 課程github說明
 每周上課教材會放到 weekx 目錄，請同學將作業上傳至自己的學號目錄中<br>
@@ -7,7 +7,7 @@ program is good :)
 
 拉專案下來
 ```
-git clone https://github.com/ia2407-114/113-1-junior-college-C-plus-plus-program.git 學號
+git clone https://github.com/ia2407-114/114-1-junior-college-C-plus-plus-program.git 學號
 ```
 <br>
 
@@ -32,7 +32,7 @@ git config --global user.email <mailaddress>
 
 設定遠端節點
 ```
-git remote add origin https://github.com/ia2407-114/113-1-junior-college-C-plus-plus-program.git
+git remote add origin https://github.com/ia2407-114/114-1-junior-college-C-plus-plus-program.git
 ```
 <br>
 
