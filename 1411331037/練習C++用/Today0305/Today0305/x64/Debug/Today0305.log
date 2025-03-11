@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\User\OneDrive\桌面\Today0305\Source.cpp(28,27): warning C4474: 'scanf_s': 傳遞給格式字串的引數太多
+      C:\Users\User\OneDrive\桌面\Today0305\Source.cpp(28,27):
+      預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
+  
+C:\Users\User\OneDrive\桌面\Today0305\Source.cpp(67,31): warning C4474: 'scanf_s': 傳遞給格式字串的引數太多
+      C:\Users\User\OneDrive\桌面\Today0305\Source.cpp(67,31):
+      預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
+  
+  Today0305.vcxproj -> C:\Users\User\OneDrive\桌面\Today0305\x64\Debug\Today0305.exe

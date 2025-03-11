@@ -1,0 +1,48 @@
+﻿  Source.cpp
+D:\練習C++用\Today0305\Source.cpp(36,21): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+D:\練習C++用\Today0305\Source.cpp(36,21): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+D:\練習C++用\Today0305\Source.cpp(36,21): message : 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
+D:\練習C++用\Today0305\Source.cpp(36,21): message : 此引數可用為緩衝區大小
+D:\練習C++用\Today0305\Source.cpp(44,25): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+D:\練習C++用\Today0305\Source.cpp(44,25): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+D:\練習C++用\Today0305\Source.cpp(44,25): message : 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
+D:\練習C++用\Today0305\Source.cpp(44,25): message : 此引數可用為緩衝區大小
+D:\練習C++用\Today0305\Source.cpp(85,50): error C2440: '正在初始化': 無法由 'void *' 轉換為 'ListNodePtr'
+D:\練習C++用\Today0305\Source.cpp(85,50): message : 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+D:\練習C++用\Today0305\Source.cpp(87,16): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\練習C++用\Today0305\Source.cpp(95,27): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\練習C++用\Today0305\Source.cpp(97,44): error C2679: 二元運算子 '=': 找不到使用右方運算元類型 'listNode *' 的運算子 (或是沒有可接受的轉換)
+D:\練習C++用\Today0305\Source.cpp(8,1): message : 可能是 'listNode &listNode::operator =(listNode &&)'
+D:\練習C++用\Today0305\Source.cpp(8,1): message : 或       'listNode &listNode::operator =(const listNode &)'
+D:\練習C++用\Today0305\Source.cpp(97,44): message : 當嘗試符合引數清單 '(ListNodePtr, listNode *)' 時
+D:\練習C++用\Today0305\Source.cpp(101,25): error C2676: 二元運算子 '==': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\練習C++用\Today0305\Source.cpp(102,35): error C2440: '=': 無法由 'ListNodePtr' 轉換為 'listNode *'
+D:\練習C++用\Today0305\Source.cpp(102,30): message : 沒有可以執行此轉換的使用者定義轉換運算子或無法呼叫運算子
+D:\練習C++用\Today0305\Source.cpp(106,41): error C2440: '=': 無法由 'ListNodePtr' 轉換為 'listNode *'
+D:\練習C++用\Today0305\Source.cpp(106,35): message : 沒有可以執行此轉換的使用者定義轉換運算子或無法呼叫運算子
+D:\練習C++用\Today0305\Source.cpp(107,40): error C2440: '=': 無法由 'ListNodePtr' 轉換為 'listNode *'
+D:\練習C++用\Today0305\Source.cpp(107,30): message : 沒有可以執行此轉換的使用者定義轉換運算子或無法呼叫運算子
+D:\練習C++用\Today0305\Source.cpp(121,32): error C2679: 二元運算子 '=': 找不到使用右方運算元類型 'listNode *' 的運算子 (或是沒有可接受的轉換)
+D:\練習C++用\Today0305\Source.cpp(8,1): message : 可能是 'listNode &listNode::operator =(listNode &&)'
+D:\練習C++用\Today0305\Source.cpp(8,1): message : 或       'listNode &listNode::operator =(const listNode &)'
+D:\練習C++用\Today0305\Source.cpp(121,32): message : 當嘗試符合引數清單 '(ListNodePtr, listNode *)' 時
+D:\練習C++用\Today0305\Source.cpp(122,21): error C2664: 'void free(void *)': 無法將引數 1 從 'ListNodePtr' 轉換為 'void *'
+D:\練習C++用\Today0305\Source.cpp(122,14): message : 沒有可以執行此轉換的使用者定義轉換運算子或無法呼叫運算子
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_malloc.h(89,14): message : 請參閱 'free' 的宣告
+D:\練習C++用\Today0305\Source.cpp(127,49): error C2440: '正在初始化': 無法由 'listNode *' 轉換為 'ListNodePtr'
+D:\練習C++用\Today0305\Source.cpp(127,49): message : 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+D:\練習C++用\Today0305\Source.cpp(130,27): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\練習C++用\Today0305\Source.cpp(132,44): error C2679: 二元運算子 '=': 找不到使用右方運算元類型 'listNode *' 的運算子 (或是沒有可接受的轉換)
+D:\練習C++用\Today0305\Source.cpp(8,1): message : 可能是 'listNode &listNode::operator =(listNode &&)'
+D:\練習C++用\Today0305\Source.cpp(8,1): message : 或       'listNode &listNode::operator =(const listNode &)'
+D:\練習C++用\Today0305\Source.cpp(132,44): message : 當嘗試符合引數清單 '(ListNodePtr, listNode *)' 時
+D:\練習C++用\Today0305\Source.cpp(136,24): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\練習C++用\Today0305\Source.cpp(139,25): error C2664: 'void free(void *)': 無法將引數 1 從 'ListNodePtr' 轉換為 'void *'
+D:\練習C++用\Today0305\Source.cpp(139,18): message : 沒有可以執行此轉換的使用者定義轉換運算子或無法呼叫運算子
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_malloc.h(89,14): message : 請參閱 'free' 的宣告
+D:\練習C++用\Today0305\Source.cpp(150,17): error C2676: 二元運算子 '==': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\練習C++用\Today0305\Source.cpp(164,27): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\練習C++用\Today0305\Source.cpp(166,44): error C2679: 二元運算子 '=': 找不到使用右方運算元類型 'listNode *' 的運算子 (或是沒有可接受的轉換)
+D:\練習C++用\Today0305\Source.cpp(8,1): message : 可能是 'listNode &listNode::operator =(listNode &&)'
+D:\練習C++用\Today0305\Source.cpp(8,1): message : 或       'listNode &listNode::operator =(const listNode &)'
+D:\練習C++用\Today0305\Source.cpp(166,44): message : 當嘗試符合引數清單 '(ListNodePtr, listNode *)' 時
