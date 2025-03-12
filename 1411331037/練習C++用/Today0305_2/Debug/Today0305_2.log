@@ -1,6 +1,0 @@
-﻿  Today0305_2.cpp
-C:\Users\User\source\repos\Today0305_2\Today0305_2.cpp(28,28): warning C4474: 'scanf_s': 傳遞給格式字串的引數太多
-C:\Users\User\source\repos\Today0305_2\Today0305_2.cpp(28,28): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
-C:\Users\User\source\repos\Today0305_2\Today0305_2.cpp(67,31): warning C4474: 'scanf_s': 傳遞給格式字串的引數太多
-C:\Users\User\source\repos\Today0305_2\Today0305_2.cpp(67,31): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
-  Today0305_2.vcxproj -> C:\Users\User\source\repos\Today0305_2\Debug\Today0305_2.exe
