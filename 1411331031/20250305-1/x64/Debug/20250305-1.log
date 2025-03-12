@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\20250305-1\Source.cpp(46,30): error C2228: '.data' 的左邊必須有類別/結構/等位
+D:\20250305-1\Source.cpp(46,30): message : 類型為 'ListNodePtr'
+D:\20250305-1\Source.cpp(46,30): message : 您是否想要改用 '->'?

@@ -1,0 +1,95 @@
+﻿  Source.cpp
+D:\20250305-1\Source.cpp(29,32): error C2440: '正在初始化': 無法由 'int' 轉換為 'ListNodePtr'
+D:\20250305-1\Source.cpp(29,32): message : 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+D:\20250305-1\Source.cpp(42,21): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+D:\20250305-1\Source.cpp(42,21): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+D:\20250305-1\Source.cpp(42,21): message : 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
+D:\20250305-1\Source.cpp(42,21): message : 此引數可用為緩衝區大小
+D:\20250305-1\Source.cpp(50,25): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+D:\20250305-1\Source.cpp(50,25): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+D:\20250305-1\Source.cpp(50,25): message : 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
+D:\20250305-1\Source.cpp(50,25): message : 此引數可用為緩衝區大小
+D:\20250305-1\Source.cpp(88,50): error C2440: '正在初始化': 無法由 'void *' 轉換為 'ListNodePtr'
+D:\20250305-1\Source.cpp(88,50): message : 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+D:\20250305-1\Source.cpp(90,16): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\20250305-1\Source.cpp(91,15): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(91,15): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(91,22): error C2232: '->listNode::data': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(92,15): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(92,15): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(92,25): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(94,39): error C2440: '正在初始化': 無法由 'int' 轉換為 'ListNodePtr'
+D:\20250305-1\Source.cpp(94,39): message : 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+D:\20250305-1\Source.cpp(98,27): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\20250305-1\Source.cpp(98,56): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(98,56): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(98,62): error C2232: '->listNode::data': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(100,36): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(100,36): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(100,45): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(104,25): error C2676: 二元運算子 '==': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\20250305-1\Source.cpp(105,19): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(105,19): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(105,29): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(109,24): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(109,24): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(109,34): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(110,19): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(110,19): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(110,29): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(121,8): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(121,8): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(121,31): error C2232: '->listNode::data': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(123,24): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(123,24): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(123,33): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(124,21): error C2664: 'void free(void *)': 無法將引數 1 從 'ListNodePtr' 轉換為 'void *'
+D:\20250305-1\Source.cpp(124,14): message : 沒有可以執行此轉換的使用者定義轉換運算子或無法呼叫運算子
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_malloc.h(89,14): message : 請參閱 'free' 的宣告
+D:\20250305-1\Source.cpp(129,41): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(129,41): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(129,50): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(132,27): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\20250305-1\Source.cpp(132,48): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(132,48): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(132,55): error C2232: '->listNode::data': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(134,36): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(134,36): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(134,45): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(138,24): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\20250305-1\Source.cpp(140,24): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(140,24): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(140,34): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(140,46): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(140,46): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(140,55): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(141,25): error C2664: 'void free(void *)': 無法將引數 1 從 'ListNodePtr' 轉換為 'void *'
+D:\20250305-1\Source.cpp(141,18): message : 沒有可以執行此轉換的使用者定義轉換運算子或無法呼叫運算子
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_malloc.h(89,14): message : 請參閱 'free' 的宣告
+D:\20250305-1\Source.cpp(151,17): error C2676: 二元運算子 '==': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\20250305-1\Source.cpp(164,27): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\20250305-1\Source.cpp(165,41): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(165,41): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(165,47): error C2232: '->listNode::data': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\20250305-1\Source.cpp(165,20): warning C4473: 'printf' : 傳遞給格式字串的引數不足
+D:\20250305-1\Source.cpp(165,20): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 0 個
+D:\20250305-1\Source.cpp(165,20): message : 缺少 variadic 引數 1 (其為格式字串 '%c' 所需)
+D:\20250305-1\Source.cpp(166,36): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\20250305-1\Source.cpp(13): message : 請參閱 'listNode' 的宣告
+D:\20250305-1\Source.cpp(166,36): message : 您是否想要改用 '.'?
+D:\20250305-1\Source.cpp(166,45): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
