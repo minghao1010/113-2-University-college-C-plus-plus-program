@@ -1,0 +1,98 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// 定義學生結構體
+typedef struct student {
+    char name[20];
+    int ID;
+    int math, comput;
+    double AVG;
+} stu;
+
+// 自我參考結構
+struct listNode {
+    stu data; // 每個節點包含學生結構
+    struct listNode* nextPtr; // 指向下一個節點的指標
+};
+
+typedef struct listNode ListNode;
+typedef ListNode* ListNodePtr;
+
+// 函數原型
+void insert(ListNodePtr* sPtr, stu value);
+void printList(ListNodePtr currentPtr);
+int isEmpty(ListNodePtr sPtr);
+
+int main(void) {
+    ListNodePtr startPtr = NULL; // 初始化鏈表
+    stu newStudent;
+
+    // 輸入四筆學生資料
+    for (int i = 0; i < 4; i++) {
+        printf("Enter name, ID, math score, computer score for student %d:\n", i + 1);
+        scanf_s("%19s %d %d %d", newStudent.name, (unsigned)_countof(newStudent.name), &newStudent.ID, &newStudent.math, &newStudent.comput);
+        newStudent.AVG = (newStudent.math + newStudent.comput) / 2.0; // 計算平均分
+        insert(&startPtr, newStudent); // 插入學生
+    }
+
+    // 印出鏈結串列的內容
+    printList(startPtr);
+
+    return 0;
+}
+
+// 插入學生資料（按 ID 排序）
+void insert(ListNodePtr* sPtr, stu value) {
+    ListNodePtr newPtr = (ListNodePtr)malloc(sizeof(ListNode)); // 顯式轉型
+    if (newPtr != NULL) {
+        newPtr->data = value;
+        newPtr->nextPtr = NULL;
+
+        ListNodePtr previousPtr = NULL;
+        ListNodePtr currentPtr = *sPtr;
+
+        // 找到適當的位置（按 ID 排序）
+        while (currentPtr != NULL && value.ID > currentPtr->data.ID) {
+            previousPtr = currentPtr;
+            currentPtr = currentPtr->nextPtr;
+        }
+
+        // 插入到開頭
+        if (previousPtr == NULL) {
+            newPtr->nextPtr = *sPtr;
+            *sPtr = newPtr;
+        }
+        else {
+            previousPtr->nextPtr = newPtr;
+            newPtr->nextPtr = currentPtr;
+        }
+    }
+    else {
+        printf("Student %s not inserted. No memory available.\n", value.name);
+    }
+}
+
+// 判斷列表是否為空
+int isEmpty(ListNodePtr sPtr) {
+    return sPtr == NULL;
+}
+
+// 輸出列表
+void printList(ListNodePtr currentPtr) {
+    if (isEmpty(currentPtr)) {
+        puts("List is empty.\n");
+    }
+    else {
+        puts("The student list:");
+
+        while (currentPtr != NULL) {
+            printf("Name: %s, ID: %d, Math: %d, Comput: %d, AVG: %.2f\n",
+                currentPtr->data.name, currentPtr->data.ID,
+                currentPtr->data.math, currentPtr->data.comput,
+                currentPtr->data.AVG);
+            currentPtr = currentPtr->nextPtr;
+        }
+
+        puts("");
+    }
+}
