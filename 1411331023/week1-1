@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+// student structure definition
+typedef struct student {
+    char name[20];
+    int ID;
+    int math, comput;
+    float AVG;
+} stu;
+
+int main(void)
+{
+    FILE* sfPtr = NULL; // students.dat file pointer
+
+    // fopen opens the file; exits if file cannot be opened
+    if (fopen_s(&sfPtr, "students.dat", "wb") != 0) { // Corrected the fopen_s() check
+        puts("File could not be opened.");
+    }
+    else {
+        // create a student with default information
+        stu blankStudent = { "", 0, 0, 0, 0.0 };
+
+        // output 100 blank student records to the file
+        for (unsigned int i = 1; i <= 100; ++i) {
+            fwrite(&blankStudent, sizeof(stu), 1, sfPtr);
+        }
+
+        fclose(sfPtr); // fclose closes the file
+        puts("已建立!");
+    }
+}
