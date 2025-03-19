@@ -1,0 +1,62 @@
+﻿  ConsoleApplication1.cpp
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(15,6): error C2059: 語法錯誤: 'delete'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(22,32): error C2440: '正在初始化': 無法由 'int' 轉換為 'ListNodePtr'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(22,32): message : 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(47,44): error C2541: 'delete': 無法刪除不是指標的物件
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(47,44): error C2451: 類型為 'void' 的條件運算式無效
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(47): message : 不能將類型 void 的運算式轉換為其他類型
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(28,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(36,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(44,17): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(67,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(85,50): error C2440: '正在初始化': 無法由 'void *' 轉換為 'ListNodePtr'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(85,50): message : 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(87,16): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(88,15): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(88,15): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(88,22): error C2232: '->listNode::data': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(89,15): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(89,15): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(89,25): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(91,39): error C2440: '正在初始化': 無法由 'int' 轉換為 'ListNodePtr'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(91,39): message : 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(95,27): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(95,56): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(95,56): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(95,62): error C2232: '->listNode::data': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(97,36): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(97,36): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(97,45): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(101,25): error C2676: 二元運算子 '==': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(102,19): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(102,19): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(102,29): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(106,24): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(106,24): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(106,34): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(107,19): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(107,19): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(107,29): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(116,6): error C2059: 語法錯誤: 'delete'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(117,1): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(117,1): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(150,17): error C2676: 二元運算子 '==': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(164,27): error C2676: 二元運算子 '!=': 'ListNodePtr' 沒有定義此運算子或預先定義運算子可接受的類型轉換
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,41): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,41): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,47): error C2232: '->listNode::data': 左運算元屬於 'struct' 類型，必須改用 '.'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,20): warning C4473: 'printf' : 傳遞給格式字串的引數不足
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,20): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 0 個
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,20): message : 缺少 variadic 引數 1 (其為格式字串 '%c' 所需)
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(166,36): error C2819: 類型 'listNode' 沒有多載成員 'operator ->'
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(5): message : 請參閱 'listNode' 的宣告
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(166,36): message : 您是否想要改用 '.'?
+D:\week3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(166,45): error C2232: '->listNode::nextPtr': 左運算元屬於 'struct' 類型，必須改用 '.'
